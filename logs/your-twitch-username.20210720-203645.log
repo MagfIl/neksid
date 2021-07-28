@@ -1,0 +1,5 @@
+20/07/21 20:36:45 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Start session: '6e94ba3f-eeb6-42df-ad29-d89381d1383b'
+20/07/21 20:36:45 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: You'll have to login to Twitch!
+20/07/21 20:36:45 - DEBUG - urllib3.connectionpool - [_new_conn]: Starting new HTTPS connection (1): passport.twitch.tv:443
+20/07/21 20:36:46 - DEBUG - urllib3.connectionpool - [_make_request]: https://passport.twitch.tv:443 "POST /login HTTP/1.1" 400 103
+20/07/21 20:36:46 - ERROR - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: Unknown error: {'error': 'Incorrect username or password.', 'error_code': 1014, 'error_description': 'user does not exist'}

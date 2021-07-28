@@ -1,0 +1,5 @@
+20/07/21 20:42:05 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Start session: 'd8ac8b9f-71c2-433d-a48c-e7029f7c852f'
+20/07/21 20:42:05 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: You'll have to login to Twitch!
+20/07/21 20:42:05 - DEBUG - urllib3.connectionpool - [_new_conn]: Starting new HTTPS connection (1): passport.twitch.tv:443
+20/07/21 20:42:06 - DEBUG - urllib3.connectionpool - [_make_request]: https://passport.twitch.tv:443 "POST /login HTTP/1.1" 400 110
+20/07/21 20:42:06 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: Invalid username or password, please try again.
