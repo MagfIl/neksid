@@ -58,7 +58,7 @@ twitch_miner = TwitchChannelPointsMiner(
 # The settings priority are: settings in mine function, settings in TwitchChannelPointsMiner instance, default settings.
 # For example, if in the mine function you don't provide any value for 'make_prediction' but you have set it on TwitchChannelPointsMiner instance, the script will take the value from here.
 # If you haven't set any value even in the instance the default one will be used
-twitch_miner.analytics(host="127.0.0.1", port=5000, refresh=5)   # Analytics web-server
+twitch_miner.analytics(host="192.168.1.13", port=5000, refresh=5)   # Analytics web-server
 twitch_miner.mine(
     [
         Streamer("ZakvielChannel"),
